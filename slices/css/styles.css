@@ -1,0 +1,214 @@
+html body {
+        background: rgba(0,0,0,.9);
+        width: 100%;
+        min-height: 1200px;
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+}
+
+.container {
+        width: 100%;
+        min-height: 1200px;
+        color: #000;
+        font-size: 1em;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+}
+
+#main-content {
+        min-height: 1000px;
+        height: 100%;
+        width: 91%;
+        margin: 0 auto;
+        margin-bottom: 1em;
+        border-radius: 0em 0em .5em .5em;
+        padding: 1em; 
+}
+.content {
+        padding: 1em;
+        margin: 1.5em auto;
+        width: 75%;
+        color: #000;
+        font-size: 1.5em;
+}
+
+a {
+        display: inline;
+        width: 6em;
+        padding: 1em;
+        color: #07C400;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+ul {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+}
+
+li {
+        display: inline;
+        list-style-type:none;   
+}
+
+header {
+        width: 100%;
+        font-weight: bold;
+        font-size: 1.5em;
+        height: 10%;
+        color: #FFF;
+        padding-top: .5em;
+}
+
+footer {
+        position: fixed;
+        bottom: 0;
+        color: #FFF;
+        background: rgba(0,0,0,.75);
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        box-shadow: 0em -0.6em 1em rgba(0,0,0,.35);
+        height: 5%;
+}
+
+nav.navmenu {
+        font-size: 2em;
+        background: rgba(0,0,0,.9);   
+        box-shadow: 0 .3em .5em rgba(0,0,0,.5);
+        margin: 0 auto;
+        width: 100%;
+        padding: .25em;
+}
+
+a:hover {
+        color: #FFF;
+}
+
+.fixnav {
+        position: fixed;
+        top: 0;
+}
+h1 {    
+        font-family: monospace;
+        text-align: left;
+        padding: 0;
+        margin: .25em  0em -.5em 2em;
+        color: black;
+        font-size: 2.5em;
+        -webkit-text-fill-color: rgba(0,0,0,1); /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+}
+h2 {
+        text-align: left;
+        padding:0;
+        margin-left: 10%;
+        font-size: 1em;
+}
+section {
+        margin: 0 auto;
+}
+.latest-posts {
+        padding: .2em;
+        margin: .5em auto;
+        width: 90%;
+        color: #07C400;
+        font-size: 1.5em;
+}
+.latest-posts h2 {
+        width: 90%;
+        margin: 0 auto;
+        text-shadow: .0em -.05em rgba(0,0,0,.8);
+        text-align: center;
+}
+header.latest-posts {
+        width: 95%;
+	background: rgba(255,255,255,.3);
+        box-shadow: 0 .5em .9em rgba(0,0,0,.5);
+}
+article {
+        background: rgba(255,255,255,1);
+        width: 90%;
+        font-size: 1em;
+        color: #000;
+        margin: 1em auto;
+        box-shadow: 0 .5em .5em rgba(0,0,0,.3);
+        height: 100%;
+}
+.script-art {
+        padding: 1em;
+        font-size: .75em;
+}
+header.script-art {
+        margin: 0 auto;
+        background: rgba(255,255,255,.2);
+        width: 90%;
+        color: #000;
+        box-shadow: none;
+        font-size: 1em;
+}
+.script-art .hideshow {
+        font-weight: bold;
+        font-size: 1em;
+        color: #07C400;
+        background: #000;
+        border-radius: 1em;     
+}
+.script-art .hideshow:hover {
+        font-weight: bold;
+        font-size: 1em;
+        color: #000;
+        background: #07C400;
+        border-radius: 1em;
+}
+header.content {
+        width: 80%;
+        padding: .5em;
+        margin: 1em auto;
+}
+header.content h3 {
+        color: #FFF;
+        text-shadow: .05em -.05em rgba(255,255,255,.1);
+        margin: 0 auto;
+        font-size: 1.75em;
+        font-weight: bold;
+}
+.prettyprint {
+        text-align: left;
+        font-size: 1.25em;
+        width: 80%;
+}
+.script-art .hideshow2 {
+        font-weight: bold;
+        font-size: 1em;
+        color: #07C400;
+        background: #000;
+        border-radius: 1em;     
+}
+.script-art .hideshow2:hover {
+        font-weight: bold;
+        font-size: 1em;
+        color: #000;
+        background: #07C400;
+        border-radius: 1em;
+}
+input[type=search] { 
+        color: red;  
+        text-align: right;
+        cursor: pointer;
+        display: block; 
+        width: 100%; 
+        letter-spacing: 4px;        
+        text-shadow: 0 0 2px black;       
+        word-spacing: 20px; 
+        font-size: large;              
+}
+aside#search-bar {
+        position: fixed;
+        top: .4em;
+        right: .8em;
+}
